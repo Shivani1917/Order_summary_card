@@ -1,0 +1,157 @@
+.annual-plan {
+  display: inline-block;
+  position: relative;
+  left: 0px;
+  bottom: 13px;
+}
+
+body {
+  align-items: center;
+  text-align: center;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(bgg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn1 {
+  background: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  color: #7280a7;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 17px 20px;
+  border: solid hsl(225, 100%, 98%) 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  float: right;
+}
+
+.btn1:hover {
+  border: solid hsl(225, 100%, 98%)1px;
+  background: hsl(225, 100%, 98%);
+  background-image: -webkit-linear-gradient(top, hsl(228, 52%, 89%), hsl(227, 66%, 94%));
+  background-image: -moz-linear-gradient(top, hsl(228, 47%, 90%), hsl(229, 33%, 87%));
+  background-image: -ms-linear-gradient(top, rgb(185, 205, 236), hsl(228, 62%, 84%));
+  background-image: -o-linear-gradient(top, hsl(227, 67%, 92%), hsl(228, 28%, 76%));
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn1:active{
+    color: #a0a7df;
+}
+
+.btn2 {
+  background:#a7aedf ;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  position: relative;
+  bottom: 16px;
+  left: 4px;
+  border-radius: 10px;
+  padding: 12px 110px;
+}
+
+.btn2:hover {
+    border: solid #a7aedf 1px;
+    background: #a7aedf ;
+    background-image: -webkit-linear-gradient(top, #b9bee7 , #a2abeb );
+    background-image: -moz-linear-gradient(top, #bdc2e6 , #98a0e0 );
+    background-image: -ms-linear-gradient(top, #bbc1ec , #a0a7df );
+    background-image: -o-linear-gradient(top, #c4cbfc , #a7afe9 );
+    border-radius: 10px;
+    box-shadow: 1px 11px 41px 0 #a7aedf;
+    text-decoration: none;
+}
+
+.btn2:active{
+    color: #b8bde2;
+}
+
+.btn3 {
+    background:hsl(225, 100%, 98%);
+    cursor: pointer;
+    position: relative;
+    right: -5px;
+    padding: 12px 131px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.btn3:hover {
+    border: solid hsl(225, 44%, 96%)1px;
+    background: hsl(230, 30%, 96%) ;
+    background-image: -webkit-linear-gradient(top,hsl(229, 65%, 97%) , hsl(230, 60%, 98%));
+    background-image: -moz-linear-gradient(top, hsl(224, 52%, 96%) , hsl(231, 64%, 98%));
+    background-image: -ms-linear-gradient(top, hsl(225, 57%, 97%) , hsl(225, 40%, 98%));
+    background-image: -o-linear-gradient(top, hsl(229, 73%, 97%), hsl(230, 100%, 98%));
+    border-radius: 10px;
+    box-shadow: 1px 11px 41px 0 hsl(229, 84%, 95%);
+    text-decoration: none;
+}
+
+.btn3:active{
+    color: #9128d6;
+}
+
+.container {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  display: inline-block;
+  height: 679px;
+  margin: 10px 0 5px 0;
+  /* width: 500px; */
+  width: 32vw;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.itunes-img {
+  float: left;
+  width: 50px;
+}
+
+.middle-container {
+  background-color: hsl(225, 100%, 98%);
+  margin: 20px 70px;
+  width: 350px;
+}
+
+.music-img {
+  /* width: 500px; */
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.order-summary {
+  color: hsl(224, 23%, 55%);
+  font-weight: bolder;
+  width: 300px;
+  margin-left: 101px;
+  line-height: 2;
+}
+
+.per-year {
+  color: hsl(224, 23%, 55%);
+  display: inline-block;
+  left: 15px;
+  position: relative;
+  top: -38px;
+}
+
+:root {
+  /* Primary */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+
+  /* Neutral */
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
